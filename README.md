@@ -3,7 +3,7 @@ Nome da aplicação: BASE CONTROL
 Descrição:
 Base Control é uma aplicação para registros, acompanhamento de atividades, geração de relatórios e gráficos. É uma ferramenta prática, rápida, acessível e flexível que atende tanto a indivíduos quanto a empresas. Permite a inserção interativa de informações e dados de atividades laborais, possibilitando aos usuários a obtenção de relatórios atualizados sobre as atividades realizadas e quem as executou.
 
-Requisitos Funcionais:
+✅ Requisitos Funcionais:
 
 1ª Tela:
 Botões
@@ -25,7 +25,7 @@ inserção manual de dados de registro, incluindo:
    - Multa
    - Observações
 
-Requisitos Não Funcionais:
+❌ Requisitos Não Funcionais:
 
 - Nome completo e número de matrícula do funcionário serão exibidos automaticamente na segunda tela.
 - Performance: A aplicação deve ser responsiva, com baixa latência na execução do código.
