@@ -1,4 +1,4 @@
-![image](https://github.com/Maycolino/BASE_CONTROL_Projeto-Integrador/assets/142109307/8e9e7af3-ebb7-42fc-8529-6dec4d277040)
+![image](https://github.com/Maycolino/BASE_CONTROL_Projeto-Integrador/assets/142109307/4c5e9141-87d5-476a-980a-ac894dabcc7d)
 Nome da aplicação: BASE CONTROL
 
 Descrição:
