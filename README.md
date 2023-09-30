@@ -1,4 +1,5 @@
-💻 Nome da aplicação: BASE CONTROL
+![image](https://github.com/Maycolino/BASE_CONTROL_Projeto-Integrador/assets/142109307/8e9e7af3-ebb7-42fc-8529-6dec4d277040)
+Nome da aplicação: BASE CONTROL
 
 Descrição:
 Base Control é uma aplicação para registros, acompanhamento de atividades, geração de relatórios e gráficos. É uma ferramenta prática, rápida, acessível e flexível que atende tanto a indivíduos quanto a empresas. Permite a inserção interativa de informações e dados de atividades laborais, possibilitando aos usuários a obtenção de relatórios atualizados sobre as atividades realizadas e quem as executou.
