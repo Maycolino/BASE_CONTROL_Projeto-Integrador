@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acompanhar Dados</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="container mt-5">
+    <h2>Dados Registrados</h2>
+    <div class="row" id="dados"></div>
+
+    <div class="row mt-3">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Matrícula</th>
+                    <th>Colaborador</th>
+                    <th>Placa</th>
+                    <th>Retirada</th>
+                    <th>Hora</th>
+                    <th>Devolução</th>
+                    <th>Hora</th>
+                    <th>KMs Rodados</th>
+                    <th>Despesa Combustível</th>
+                    <th>Despesa Pane</th>
+                    <th>Despesa Pedágio</th>
+                    <th>Multa</th>
+                    <th>Observações</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for dado in dados %}
+                    <tr>
+                        <td>{{ dado.matricula }}</td>
+                        <td>{{ dado.colaborador }}</td>
+                        <td>{{ dado.placa }}</td>
+                        <td>{{ dado.retirada }}</td>
+                        <td>{{ dado.hora_retirada }}</td>
+                        <td>{{ dado.devolucao }}</td>
+                        <td>{{ dado.hora_devolucao }}</td>
+                        <td>{{ dado.kms_rodados }}</td>
+                        <td>{{ dado.despesa_combustivel }}</td>
+                        <td>{{ dado.despesa_pane }}</td>
+                        <td>{{ dado.despesa_pedagio }}</td>
+                        <td>{{ dado.multa }}</td>
+                        <td>{{ dado.observacoes }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const button = document.querySelector('.button');
+
+            button.addEventListener('click', function() {
+                fetch('/dados')
+                    .then(response => response.json())
+                    .then(data => {
+                        const dadosDiv = document.getElementById('dados');
+                        dadosDiv.innerHTML = JSON.stringify(data, null, 2);
+                    });
+            });
+        });
+    </script>
+</body>
+</html>

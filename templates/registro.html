@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÁREA DE REGISTRO</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .btn-primary {
+            background-color: #00FF00;
+            border-color: #00FF00;
+        }
+
+        .btn-primary:hover {
+            background-color: #008800;
+            border-color: #008800;
+        }
+
+        label {
+            color: #00FF00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h2 class="text-center mb-4">ÁREA DE REGISTRO</h2>
+        <form action="registro" method="POST">
+            <div class="form-group">
+                <label for="matricula">Nº MATRICULA</label>
+                <input type="number" class="form-control" id="matricula" name="matricula" required>
+            </div>
+            <div class="form-group">
+                <label for="colaborador">COLABORADOR</label>
+                <input type="text" class="form-control" id="colaborador" name="colaborador" pattern="[A-Za-z\s]+" required>
+            </div>
+            <div class="form-group">
+                <label for="placa">PLACA</label>
+                <input type="text" class="form-control" id="placa" name="placa" oninput="this.value = this.value.toUpperCase()" required>
+            </div>
+            <div class="form-group">
+                <label for="retirada">RETIRADA</label>
+                <input type="date" class="form-control" id="retirada" name="retirada" required>
+            </div>
+            <div class="form-group">
+                <label for="hora_retirada">HORA (Formato HH:mm)</label>
+                <input type="time" class="form-control" id="hora_retirada" name="hora_retirada" required>
+            </div>
+            <div class="form-group">
+                <label for="devolucao">DEVOLUÇÃO</label>
+                <input type="date" class="form-control" id="devolucao" name="devolucao" required>
+            </div>
+            <div class="form-group">
+                <label for="hora_devolucao">HORA (Formato HH:mm)</label>
+                <input type="time" class="form-control" id="hora_devolucao" name="hora_devolucao" required>
+            </div>
+            <div class="form-group">
+                <label for="kms_rodados">KM'S RODADOS</label>
+                <input type="number" class="form-control" id="kms_rodados" name="kms_rodados" required>
+            </div>
+            <div class="form-group">
+                <label for="despesa_combustivel">DESPESA COMBUSTÍVEL</label>
+                <input type="number" class="form-control" id="despesa_combustivel" name="despesa_combustivel">
+            </div>
+            <div class="form-group">
+                <label for="despesa_pane">DESPESA PANE</label>
+                <input type="number" class="form-control" id="despesa_pane" name="despesa_pane">
+            </div>
+            <div class="form-group">
+                <label for="despesa_pedagio">DESPESA PEDÁGIO</label>
+                <input type="number" class="form-control" id="despesa_pedagio" name="despesa_pedagio">
+            </div>
+            <div class="form-group">
+                <label for="multa">MULTA</label>
+                <input type="number" class="form-control" id="multa" name="multa">
+            </div>
+            <div class="form-group">
+                <label for="observacoes">OBSERVAÇÕES</label>
+                <textarea class="form-control" id="observacoes" name="observacoes" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">SALVAR E SAIR</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
