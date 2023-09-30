@@ -10,7 +10,6 @@ Botões
   - REGISTRAR
   - ACOMPANHAR
 
-![image](https://github.com/Maycolino/BASE_CONTROL_Projeto-Integrador/assets/142109307/7a94aa64-6060-453c-92ba-c71493eadd09)
 2ª Tela:
 inserção manual de dados de registro, incluindo:
    - Nº Matricula
