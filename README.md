@@ -72,6 +72,13 @@ Como Rodar:
 4. Execute o comando `python app.py` para iniciar a aplicação.
 5. Uma interface será aberta e você poderá usar o Base Control.
 
+# Ideias futuras
+1.	Colocar tela de login.
+2.	Criar QRCODE para acessar.
+3.	Gerar relatórios em PDF para download.
+4.	Criar um banco de dados em SQL.
+
+
 # Licença:
 
-Este projeto está sob a licença Projeto Integrador SENAI.
+Este projeto está sob a licença: https://www.linkedin.com/in/mayco-marcon-falla-966580273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
