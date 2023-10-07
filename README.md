@@ -54,7 +54,7 @@ ________________________________________
 # Tecnologia Usada:
 
 ## A aplicação é desenvolvida em Python utilizando biblioteca Flask e HTML para deixar o visual agradável.
-
+________________________________________
 Como Rodar:
 
 1. Clone este repositório para o seu ambiente local.
