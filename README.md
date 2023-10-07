@@ -1,18 +1,21 @@
-![image](https://github.com/Maycolino/BASE_CONTROL_Projeto-Integrador/assets/142109307/4c5e9141-87d5-476a-980a-ac894dabcc7d)
-Nome da aplicação: BASE CONTROL
+# Nome da aplicação: BASE CONTROL
 
-Descrição:
-Base Control é uma aplicação para registros, acompanhamento de atividades, geração de relatórios e gráficos. É uma ferramenta prática, rápida, acessível e flexível que atende tanto a indivíduos quanto a empresas. Permite a inserção interativa de informações e dados de atividades laborais, possibilitando aos usuários a obtenção de relatórios atualizados sobre as atividades realizadas e quem as executou.
+________________________________________
 
-✅ Requisitos Funcionais:
+# Descrição:
+Base Control é uma aplicação para registros, acompanhamento de atividades, geração de relatórios e gráficos. É uma ferramenta prática, rápida, acessível e flexível que atende tanto a indivíduos quanto a empresas. Permite a inserção interativa de informações e dados de atividades laborais, possibilitando aos usuários a obtenção de relatórios atualizados sobre as atividades realizadas e quem as executou. A Base Control é a ferramenta perfeita para quem precisa registrar, acompanhar e gerar relatórios sobre suas atividades de trabalho. A praticidade e flexibilidade tornam essa aplicação indispensável para usuários individuais e empresas.
 
-🎮 1ª Tela:
+________________________________________
+
+# ✅ Requisitos Funcionais:
+
+## 🎮 1ª Tela:
 Botões
   - REGISTRAR
   - ACOMPANHAR
 
-2ª Tela:
-inserção manual de dados de registro, incluindo:
+## 🎮 2ª Tela:
+Inserção manual de dados de registro, incluindo:
    - Nº Matricula
    - Colaborador
    - Placa
@@ -53,11 +56,11 @@ Este projeto está sob a licença Projeto Integrador SENAI.
 
 Link da Aplicação:
 
-1. Tela de acesso (janela de login) - Campos de registro:
+## 🚩 1. Tela de acesso (janela de login) - Campos de registro:
    - Matrícula do funcionário
    - Senha
 
-2. Tela de registro:
+## 🚩 2. Tela de registro:
    - Nome completo do motorista e matrícula na empresa serão carregados automaticamente após o login.
    - Campos de registro:
      - Placa
