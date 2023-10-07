@@ -15,7 +15,9 @@ Botões
     📌 REGISTRAR
     
     📌 ACOMPANHAR
+![tela1](https://github.com/Maycolino/BASE_CONTROL_Projeto-Integrador/assets/142109307/2a2f9277-ba3c-41ae-a2c1-38ce508a62b1)
 
+    
 ## 🎮 2ª Tela:
 Inserção manual de dados de registro, incluindo:
 
@@ -40,6 +42,13 @@ Inserção manual de dados de registro, incluindo:
     📌 Multa
     
     📌 Observações
+    
+![tela2](https://github.com/Maycolino/BASE_CONTROL_Projeto-Integrador/assets/142109307/cc813a1f-58b9-4688-9954-c96f2143910a)
+
+## 🎮 3ª Tela:
+    📌 ACOMPANHAR
+    Visualizar dados registrados.
+![tela3](https://github.com/Maycolino/BASE_CONTROL_Projeto-Integrador/assets/142109307/5ba70b05-76fc-43b3-a827-5a9fba911485)
 
 
 # ✅ Requisitos Não Funcionais:
