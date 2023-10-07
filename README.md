@@ -3,8 +3,8 @@
 ________________________________________
 
 # Descrição:
-Base Control é uma aplicação para registros, acompanhamento de atividades, geração de relatórios e gráficos. É uma ferramenta prática, rápida, acessível e flexível que atende tanto a indivíduos quanto a empresas. Permite a inserção interativa de informações e dados de atividades laborais, possibilitando aos usuários a obtenção de relatórios atualizados sobre as atividades realizadas e quem as executou. A Base Control é a ferramenta perfeita para quem precisa registrar, acompanhar e gerar relatórios sobre suas atividades de trabalho. A praticidade e flexibilidade tornam essa aplicação indispensável para usuários individuais e empresas.
-
+A Base Control é a ferramenta perfeita para quem precisa registrar, acompanhar e gerar relatórios sobre suas atividades de trabalho. A praticidade e flexibilidade tornam essa aplicação indispensável para usuários individuais e empresas.
+Permite a inserção interativa de informações e dados de atividades laborais.
 ________________________________________
 
 # ✅ Requisitos Funcionais:
