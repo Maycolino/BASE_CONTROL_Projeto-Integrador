@@ -25,7 +25,6 @@ Inserção manual de dados de registro, incluindo:
    - Despesa de combustível
    - Despesa de pane
    - Despesa de pedágio
-   - Total de despesas
    - Multa
    - Observações
 
@@ -37,7 +36,7 @@ Inserção manual de dados de registro, incluindo:
 - Escalabilidade: A aplicação deve suportar um aumento no número de usuários sem comprometer a qualidade.
 - Segurança: Garantir a segurança dos dados dos usuários e evitar vulnerabilidades.
 - Compatibilidade: Deve funcionar em diversos navegadores e sistemas operacionais.
-
+________________________________________
 Tecnologia Usada:
 
 A aplicação é desenvolvida em Python, utilizando suas bibliotecas de dados.
