@@ -1,4 +1,4 @@
-# Nome da aplicação: BASE CONTROL
+# Nome da aplicação: BASE CONTROL 📈📉📊
 
 ________________________________________
 
@@ -11,24 +11,38 @@ ________________________________________
 
 ## 🎮 1ª Tela:
 Botões
-  - REGISTRAR
-  - ACOMPANHAR
+
+    📌 REGISTRAR
+    
+    📌 ACOMPANHAR
 
 ## 🎮 2ª Tela:
 Inserção manual de dados de registro, incluindo:
-   - Nº Matricula
-   - Colaborador
-   - Placa
-   - Retirada (data e hora)
-   - Devolução (data e hora)
-   - Quilômetros rodados
-   - Despesa de combustível
-   - Despesa de pane
-   - Despesa de pedágio
-   - Multa
-   - Observações
 
-❌ Requisitos Não Funcionais:
+    📌 Nº Matricula
+    
+    📌 Colaborador
+    
+    📌 Placa
+    
+    📌 Retirada (data e hora)
+    
+    📌 Devolução (data e hora)
+    
+    📌 Quilômetros rodados
+    
+    📌 Despesa de combustível
+    
+    📌 Despesa de pane
+    
+    📌 Despesa de pedágio
+    
+    📌 Multa
+    
+    📌 Observações
+
+
+# ✅ Requisitos Não Funcionais:
 
 - Nome completo e número de matrícula do funcionário serão exibidos automaticamente na segunda tela.
 - Performance: A aplicação deve ser responsiva, com baixa latência na execução do código.
@@ -37,9 +51,9 @@ Inserção manual de dados de registro, incluindo:
 - Segurança: Garantir a segurança dos dados dos usuários e evitar vulnerabilidades.
 - Compatibilidade: Deve funcionar em diversos navegadores e sistemas operacionais.
 ________________________________________
-Tecnologia Usada:
+# Tecnologia Usada:
 
-A aplicação é desenvolvida em Python, utilizando suas bibliotecas de dados.
+## A aplicação é desenvolvida em Python utilizando biblioteca Flask e HTML para deixar o visual agradável.
 
 Como Rodar:
 
@@ -49,29 +63,6 @@ Como Rodar:
 4. Execute o comando `python app.py` para iniciar a aplicação.
 5. Uma interface será aberta e você poderá usar o Base Control.
 
-Licença:
+# Licença:
 
 Este projeto está sob a licença Projeto Integrador SENAI.
-
-Link da Aplicação:
-
-## 🚩 1. Tela de acesso (janela de login) - Campos de registro:
-   - Matrícula do funcionário
-   - Senha
-
-## 🚩 2. Tela de registro:
-   - Nome completo do motorista e matrícula na empresa serão carregados automaticamente após o login.
-   - Campos de registro:
-     - Placa
-     - Retirada (Data e Hora)
-     - Devolução (Data e Hora)
-     - Quilômetros Rodados
-     - Despesa de Combustível
-     - Despesa de Pane
-     - Despesa de Pedágio
-     - Total de Despesas
-     - Observações
-
-Botão:
-
-- Salvar e Sair
